@@ -51,15 +51,16 @@
       "product_price": "600",
       "product_color": "red",
       "product_category": "Mobile",
-      "product_description": "iphoneiphoneiphoneiphoneiphoneiphoneiphoneiphone",
+      "product_description": "Samsung mobile",
       "product_image": "https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg",
       "id": 1
     },
     {
       "product_name": "iphone 12",
       "product_price": "500",
+      "product_color": "",
       "product_category": "Mobile",
-      "product_description": "iphoneiphoneiphoneiphoneiphoneiphoneiphoneiphone",
+      "product_description": "Iphone 13",
       "product_image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-blue-witb-2021_FMT_WHH?wid=560&hei=744&fmt=jpeg&qlt=90&.v=1638579083000",
       "id": 2
     },
@@ -68,7 +69,7 @@
       "product_price": "50000",
       "product_color": "blue",
       "product_category": "Laptop",
-      "product_description": "LaptopLaptopLaptopLaptopLaptopLaptopLaptopLaptop",
+      "product_description": "Dell Laptop",
       "product_image": "https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg",
       "id": 3
     },
@@ -77,7 +78,7 @@
       "product_price": "450",
       "product_color": "blue",
       "product_category": "Cloths",
-      "product_description": "LaptopLaptopLaptopLaptopLaptopLaptopLaptopLaptop",
+      "product_description": "HP Laptop",
       "product_image": "https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg",
       "id": 4
     }
