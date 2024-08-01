@@ -1,0 +1,13 @@
+<div>
+    <div class="signup">
+        <form #checkoutForm="ngForm" (ngSubmit)="checkOutFormData(checkoutForm.value)">
+            <h2>Checkout</h2>
+            <!-- <p class="success">{{productMessage}}</p> -->
+            <input type="email" name="email" ngModel placeholder="Enter Email ID">
+            <input type="text" name="address" ngModel placeholder="Enter Your Address">
+            <input type="text" name="contact" ngModel placeholder="Enter Contact Number">
+            <button>Order Now</button>
+            <h5>Total Price : {{totalPrice}}</h5>
+        </form>
+    </div>
+</div>

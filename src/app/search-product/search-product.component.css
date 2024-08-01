@@ -1,0 +1,15 @@
+.search_item{
+    margin-top:50px;
+    border: 1px solid #ddd;
+}
+
+.search_item .img{
+    border: 1px solid #ddd;
+}
+
+.search_item div img{
+    width: 100%;
+    height:100%;
+    /* object-fit: contain; */
+    padding:5px;
+}

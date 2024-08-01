@@ -1,0 +1,128 @@
+<div class="my_order">
+    <h1>My Order</h1>
+    <div class="row">
+        <div class="col-sm-2">
+            <span>Order</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Order Id</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Price</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Status</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Action</span>
+        </div>
+    </div>
+
+    <div class="row my_order_details" *ngFor="let order of myOrderList">
+        <div class="col-sm-2">
+            <img class="my_order_img" src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg" alt="" srcset="">
+        </div>
+        <div class="col-sm-2">
+            <span>#{{order.id}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span>{{order.totalPrice}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span>In Progress</span>
+        </div>
+        <div class="col-sm-2">
+            <span><button (click)="cancelOrder(order.id)">Cancel Order</button></span>
+        </div>
+    </div>
+
+    <!-- <div class="row my_order_details">
+        <div class="col-sm-2">
+            <img class="my_order_img" src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg" alt="" srcset="">
+        </div>
+        <div class="col-sm-2">
+            <span>1</span>
+        </div>
+        <div class="col-sm-2">
+            <span>6000</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Completed</span>
+        </div>
+        <div class="col-sm-2">
+            <span><button>Cancel Order</button></span>
+        </div>
+    </div> -->
+
+    <!-- <div class="row my_order_details">
+        <div class="col-sm-2">
+            <img class="my_order_img" src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg" alt="" srcset="">
+        </div>
+        <div class="col-sm-2">
+            <span>1</span>
+        </div>
+        <div class="col-sm-2">
+            <span>6000</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Completed</span>
+        </div>
+        <div class="col-sm-2">
+            <span><button>Cancel Order</button></span>
+        </div>
+    </div> -->
+
+    <!-- <div class="row my_order_details">
+        <div class="col-sm-2">
+            <img class="my_order_img" src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg" alt="" srcset="">
+        </div>
+        <div class="col-sm-2">
+            <span>1</span>
+        </div>
+        <div class="col-sm-2">
+            <span>6000</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Completed</span>
+        </div>
+        <div class="col-sm-2">
+            <span><button>Cancel Order</button></span>
+        </div>
+    </div> -->
+
+    <!-- <div class="row my_order_details">
+        <div class="col-sm-2">
+            <img class="my_order_img" src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg" alt="" srcset="">
+        </div>
+        <div class="col-sm-2">
+            <span>1</span>
+        </div>
+        <div class="col-sm-2">
+            <span>6000</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Completed</span>
+        </div>
+        <div class="col-sm-2">
+            <span><button>Cancel Order</button></span>
+        </div>
+    </div> -->
+
+    <!-- <div class="row my_order_details">
+        <div class="col-sm-2">
+            <img class="my_order_img" src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg" alt="" srcset="">
+        </div>
+        <div class="col-sm-2">
+            <span>1</span>
+        </div>
+        <div class="col-sm-2">
+            <span>6000</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Completed</span>
+        </div>
+        <div class="col-sm-2">
+            <span><button>Cancel Order</button></span>
+        </div>
+    </div> -->
+</div>

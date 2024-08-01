@@ -1,0 +1,125 @@
+{
+  "seller": [
+    {
+      "name": "Alam",
+      "email": "alam@gmail.com",
+      "password": 123456,
+      "id": 1
+    },
+    {
+      "name": "Azim",
+      "email": "azim@gmail.com",
+      "password": 123456,
+      "id": 2
+    },
+    {
+      "name": "Uzair",
+      "email": "uzair@gmail.com",
+      "password": 123456,
+      "id": 3
+    },
+    {
+      "name": "ashraf",
+      "email": "ashraf@gmail.com",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "name": "harun",
+      "email": "harun@gmail.com",
+      "password": "123456",
+      "id": 5
+    }
+  ],
+  "user": [
+    {
+      "name": "Mohd Alam shaikh",
+      "email": "alam780messi@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "ashraf",
+      "email": "ashraf@gmail.com",
+      "password": "123456",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "product_name": "iphone",
+      "product_price": "600",
+      "product_color": "red",
+      "product_category": "Mobile",
+      "product_description": "iphoneiphoneiphoneiphoneiphoneiphoneiphoneiphone",
+      "product_image": "https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg",
+      "id": 1
+    },
+    {
+      "product_name": "iphone 12",
+      "product_price": "500",
+      "product_category": "Mobile",
+      "product_description": "iphoneiphoneiphoneiphoneiphoneiphoneiphoneiphone",
+      "product_image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-mini-blue-witb-2021_FMT_WHH?wid=560&hei=744&fmt=jpeg&qlt=90&.v=1638579083000",
+      "id": 2
+    },
+    {
+      "product_name": "Diary Milk",
+      "product_price": "50000",
+      "product_color": "blue",
+      "product_category": "Laptop",
+      "product_description": "LaptopLaptopLaptopLaptopLaptopLaptopLaptopLaptop",
+      "product_image": "https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg",
+      "id": 3
+    },
+    {
+      "product_name": "Jeans",
+      "product_price": "450",
+      "product_color": "blue",
+      "product_category": "Cloths",
+      "product_description": "LaptopLaptopLaptopLaptopLaptopLaptopLaptopLaptop",
+      "product_image": "https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg",
+      "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "product_name": "iphone",
+      "product_price": "600",
+      "product_color": "red",
+      "product_category": "Mobile",
+      "product_description": "iphoneiphoneiphoneiphoneiphoneiphoneiphoneiphone",
+      "product_image": "https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg",
+      "quantity": 4,
+      "userId": 1,
+      "productId": 1,
+      "id": 15
+    }
+  ],
+  "orders": [
+    {
+      "email": "alam780messi@gmail.com",
+      "address": "Chembur",
+      "contact": "8454821827",
+      "totalPrice": 5050,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "google@gmail.com",
+      "address": "Chembur",
+      "contact": "1234567890",
+      "totalPrice": 5050,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "email": "ashraf@gmail.com",
+      "address": "Ulwe",
+      "contact": "7715023150",
+      "totalPrice": 5365,
+      "userId": 2,
+      "id": 4
+    }
+  ]
+}

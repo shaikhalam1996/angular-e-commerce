@@ -1,0 +1,175 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 5%;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background: rgb(0, 255, 200);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+
+nav h1{
+    color: blueviolet;
+}
+
+
+nav .nav-search{
+    /* background: #000; */
+    display: flex;
+    flex: 1;
+    margin: 0 100px;
+}
+
+nav .nav-search input{
+  flex: 1;
+  height: 35px;
+  border: 1px solid blueviolet;
+  border-right: none;
+}
+
+nav .nav-search button{
+    height: 35px;
+    border-left: none;
+    padding: 0 5px;
+    outline: none;
+  }
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: darkmagenta;
+   font-size: 15px;
+}
+
+nav ul li a:hover{
+border-bottom: 2px solid darkmagenta;
+}
+
+.signup{
+    width: 100%;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup form{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.signup form h2{
+    text-align: center;
+    margin: 10px 0;
+    color: blueviolet;
+}
+
+.signup form input{
+    margin: 10px 0;
+    padding: 8px 10px;
+}
+
+.signup form button{
+    margin: 10px 0;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.signup form button:hover{
+  cursor: pointer;
+}
+
+.signup form a{
+text-align: center;
+cursor: pointer;
+color: blueviolet;
+}
+
+.error{
+    color:red;
+    text-align:center;
+}
+
+.error_message{
+    color:red;
+}
+
+.product{
+    width: 100%;
+    height:90vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.product h2{
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 15px;
+}
+
+.product table{
+    width: 60vw;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.product table th,.product table td{
+    border: 1px solid #000;
+}
+
+.success{
+    text-align: center;
+    color: green;
+}
+
+.slider{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.caption{
+    background: rgba(0,0,0,0.5);
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background: black;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
+
+
+
+

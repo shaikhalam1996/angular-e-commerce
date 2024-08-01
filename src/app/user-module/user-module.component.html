@@ -1,0 +1,24 @@
+<div class="signup">
+    <!-- Registration Form -->
+   <form *ngIf="!showForm" #userSignup="ngForm" (ngSubmit)="userSignUpForm(userSignup.value)">
+       <h2>User Signup</h2>
+       <input type="text" name="name" ngModel placeholder="Enter Name">
+       <input type="text" name="email" ngModel placeholder="Enter Email">
+       <input type="password" name="password" ngModel placeholder="Enter Password">
+       <button>Register</button>
+       <a (click)="openLogin()">Already Have an Account?Login Here</a>
+   </form>
+
+
+ <!-- Login Form -->
+   <form *ngIf="showForm" #userLogin="ngForm" (ngSubmit)="userLoginForm(userLogin.value)">
+       <h2>User Login</h2>
+       <!-- <p class="error">{{loginError}}</p> -->
+       <input type="text" name="email" ngModel placeholder="Enter Email" #email="ngModel" required email>
+       <p class="error_message" *ngIf="email.invalid && email.touched"><span>Please Enter a Valid Email</span></p>
+       <input type="password" name="password" ngModel placeholder="Enter Password" #password="ngModel" required>
+       <p class="error_message" *ngIf="password.invalid && password.touched"><span>Please Enter a Valid Password</span></p>
+       <button [disabled]="userLogin.invalid">Login</button>
+       <a (click)="openSignUp()">Don't Have an Account?Register Here</a>
+   </form>
+</div>
